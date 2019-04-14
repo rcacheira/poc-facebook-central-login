@@ -1,0 +1,1 @@
+{"version":2,"name":"poc-facebook-central-login","builds":[{"src":"**/*.js","use":"@now/node"}]}
