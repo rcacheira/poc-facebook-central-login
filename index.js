@@ -8,7 +8,7 @@ app.use(helmet());
 app.use(cors());
 
 app.get("*", (req, res) => {
-  res.status(200).send({
+  res.send({
     "X-FacebookAccessToken": req.header["X-FacebookAccessToken"]
   });
 });
