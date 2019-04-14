@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get("*", (req, res) => {
   res.set("Content-Type", "text/html");
-  res.send(req.headers["X-facebookAccessToken"]);
+  res.send(req.header["X-FacebookAccessToken"]);
 });
 
 module.exports = app;
