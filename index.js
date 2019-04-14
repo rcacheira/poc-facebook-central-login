@@ -36,4 +36,6 @@ app.get("*", (req, res) => {
   res.send("Just another test server");
 });
 
+app.listen();
+
 module.exports = app;

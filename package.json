@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "node .",
-    "start:dev": "nodemon --inspect ./testapp.js",
-    "debug": "nodemon --inspect ./testapp.js"
+    "start:dev": "nodemon .",
+    "debug": "nodemon --inspect ."
   }
 }
