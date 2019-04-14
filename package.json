@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "node .",
-    "start:dev": "nodemon .",
-    "debug": "nodemon --inspect ."
+    "start:dev": "PORT=3001 nodemon .",
+    "debug": "PORT=3001 nodemon --inspect ."
   }
 }
