@@ -1,14 +1,18 @@
 {
-  "name": "nodejs-express",
+  "name": "poc-facebook-central-login",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.4",
-    "helmet": "^3.16.0"
+    "helmet": "^3.16.0",
+    "node-fetch": "^2.3.0"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "start:dev": "nodemon --inspect ./testapp.js",
+    "debug": "nodemon --inspect ./testapp.js"
   }
 }
