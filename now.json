@@ -4,6 +4,6 @@
   "builds": [{ "src": "./index.js", "use": "@now/node-server" }],
   "routes": [{ "src": "/(.*)", "dest": "/index.js" }],
   "env": {
-    "FACEBOOK_API_SECRET": "@facebook_api_secret"
+    "FACEBOOK_APP_SECRET": "@facebook_app_secret"
   }
 }

@@ -7,7 +7,7 @@ var CryptoJS = require("crypto-js");
 const app = express();
 const facebookAccessTokenKey = "X-FacebookAccessToken";
 
-const app_secret = process.env.FACEBOOK_API_SECRET;
+const app_secret = process.env.FACEBOOK_APP_SECRET;
 
 app.use(helmet());
 app.use(cors());
